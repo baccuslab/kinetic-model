@@ -1,0 +1,14 @@
+exp_id: 'kinetics_both'
+Model:
+    name: 'KineticsModel'
+    checkpoint: ''
+    linear_bias: False
+    n_units: 4
+Data:
+    batch_size: 512
+    data_path: '/home/xhding/tem_stim'
+    date: '21-01-26'
+    stim: 'both'
+    hs_mode: 'single'
+Optimize:
+    loss_fn: 'mix'

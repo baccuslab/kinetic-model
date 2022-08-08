@@ -1,0 +1,11 @@
+exp_id: 'channel_filter_slow'
+save_intvl: 1
+Model:
+    name: 'KineticsChannelModelFilterBipolar'
+    checkpoint: '/home/xhding/saved_model/channel_filter_LNK/epoch_005_loss_-30.11_pearson_0.5084.pth'
+    noise: 0.
+    linear_bias: False
+Data:
+    trunc_int: 50
+Optimize:
+    l2: 0.

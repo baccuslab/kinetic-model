@@ -1,0 +1,6 @@
+exp_id: 'channel_filter_amacrine'
+Model:
+    name: 'KineticsChannelModelFilterAmacrine'
+    checkpoint: ''
+    noise: 0.
+    linear_bias: False

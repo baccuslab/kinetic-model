@@ -1,0 +1,23 @@
+exp_id: 'LNK'
+img_shape: (100, 50, 50)
+epoch: 50
+Model:
+    name: 'LNK'
+    checkpoint: ''
+    n_units: 1
+    k_inits: {'ka':23., 'kfi':50., 'kfr':87.}
+Data:
+    trunc_int: 2000
+    loss_bin: 1000
+    val_size: 30000
+    batch_size: 5
+    data_path: '/home/xhding/tem_stim'
+    date: '20-09-15'
+    stim: 'fullfield_whitenoise'
+    stim_type: 'one_pixel'
+    hs_mode: 'single'
+    cells: [0]
+    
+Optimize:
+    loss_fn: 'mse'
+    lr: 0.05

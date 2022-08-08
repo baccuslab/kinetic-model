@@ -1,0 +1,7 @@
+exp_id: 'channel_filter_bipolar'
+Model:
+    name: 'KineticsChannelModelFilterBipolar'
+    checkpoint: ''
+    noise: 0.
+    linear_bias: False
+    recur_seq_len: 8
